@@ -1,0 +1,227 @@
+[
+    {
+        "pattern": ".//NR_GNBNODE/gNodebId",
+        "description": "更改基站ID, *",
+        "position1": {
+            "position": 0,
+            "value": "38"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='0']/..ipAddr",
+        "description": "L3地址本端,对端信息",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.100"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='1']/..ipAddr",
+        "description": "第一个AMF对端地址",
+        "position1": {
+            "position": 0,
+            "value": "45.10.2.50"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='2']/..ipAddr",
+        "description": "L2地址本端、对端信息(天枢星项目:只是对端有效,本端cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.105"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='3']/..ipAddr",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.11"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='4']/..ipAddr",
+        "description": "OM本端对端,对端信息",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.75"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='5']/..ipAddr",
+        "position1": {
+            "position": 0,
+            "value": "167.22.2.75"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='6']/..ipAddr",
+        "description": "默认ipv4网关",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.10"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='7']/..ipAddr",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.71"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='14']/..ipAddr",
+        "description": "SCF配置,对应NR_IP_CFG为15、16",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.102"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='15']/..ipAddr",
+        "description": "SCF配置,对应NR_IP_CFG为15、16",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.100"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='16']/..ipAddr",
+        "position1": {
+            "position": 0,
+            "value": "127.0.0.1"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='20']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "167.22.2.160"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='21']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.105"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='22']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.106"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='23']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.107"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='24']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.108"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='25']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.109"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='26']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.110"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='27']/..ipAddr",
+        "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
+        "position1": {
+            "position": 0,
+            "value": "16.22.2.111"
+        }
+    },
+    {
+        "pattern": ".//NR_IP_CFG/cfgIdx[.='28']/..ipAddr",
+        "position1": {
+            "position": 0,
+            "value": "10.0.21.30"
+        }
+    },
+    {
+        "pattern": ".//NR_TRACE_SERVER/serverIp",
+        "description": "pcap server地址",
+        "position1": {
+            "position": 0,
+            "value": "127.0.0.1"
+        }
+    },
+    {
+        "pattern": ".//NR_OM_DEV/netCfgMode",
+        "description": "netCfgMode: (0)Manual config physical, (1)Auto config virtual, (2)Auto config physical",
+        "position1": {
+            "position": 0,
+            "value": "1"
+        }
+    },
+    {
+        "pattern": ".//NR_OM_DEV/pltIpCommMode",
+        "description": "pltIpCommMode: (0)Disable ip only use xdma, (1)first xdma most ip for NTN , (2)use ip all the time (3)ip with SRTP for NTN , (4)ip with SRTP all the time",
+        "position1": {
+            "position": 0,
+            "value": "0"
+        }
+    },
+    {
+        "pattern": ".//NR_OM_DEV/edgeGWMacAddr",
+        "description": "arp mac address",
+        "position1": {
+            "position": 0,
+            "value": "5A:18:18:AB:CD:88"
+        }
+    },
+    {
+        "pattern": ".//NR_GNBRSVPARA/uplaneXdma",
+        "description": "使用XDMA模式",
+        "position1": {
+            "position": 0,
+            "value": "2"
+        }
+    },
+    {
+        "pattern": ".//NR_GNBRSVPARA/gNbMode",
+        "position1": {
+            "position": 0,
+            "value": "2"
+        }
+    },  
+    {
+        "pattern": ".//NR_GNBRSVPARA/enableBypassAMFestablish",
+        "position1": {
+            "position": 0,
+            "value": "1"
+        }
+    }, 
+    {
+        "pattern": ".//BM_FREQ_MON_MODE/beam_id",
+        "description": "频谱检测生效的波束id",
+        "position1": {
+            "position": 0,
+            "value": "1"
+        }
+    }
+]

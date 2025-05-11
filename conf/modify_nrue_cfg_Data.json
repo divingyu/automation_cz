@@ -1,0 +1,58 @@
+[
+    {
+        "pattern": ".//NR_ALGO/pdcpMacIVer",
+        "description": "完保开关",
+        "position1": {
+            "position": 0,
+            "value": "1"
+        }
+    },
+    {
+        "pattern": ".//NR_TRAN_CFG/routeAddIp",
+        "description": "核心网ip",
+        "position1": {
+            "position": 0,
+            "value": "192.168.90.11"
+        }
+    },
+    {
+        "pattern": ".//NR_UE/imsi",
+        "description": "imsi",
+        "position1": {
+            "position": 0,
+            "value": "460000123456106"
+        }
+    },
+    {
+        "pattern": ".//NR_UE/dnn",
+        "description": "dnn",
+        "position1": {
+            "position": 0,
+            "value": "cmnet"
+        }
+    },
+    {
+        "pattern": ".//NR_TRACE_SERVER/serverIp",
+        "description": "pcap server地址",
+        "position1": {
+            "position": 0,
+            "value": "192.168.3.190"
+        }
+    },
+    {
+        "pattern": ".//NR_L2THREAD_CFG/mueWorkerThreadCore",
+        "description": "绑定核配置",
+        "position1": {
+            "position": 0,
+            "value": "10"
+        }
+    },
+    {
+        "pattern": ".//NR_POWER_CONTROL/pwrSw",
+        "description": "打开功控开关",
+        "position1": {
+            "position": 0,
+            "value": "1"
+        }
+    }
+]

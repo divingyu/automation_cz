@@ -1,0 +1,3277 @@
+{
+    "scfPlanning": {
+        "S-gNBid": [
+            268435455,
+            38
+        ]
+    },
+    "BeamSoftSwitchCFG": {
+        "beamNum": 8,
+        "Item": [
+            {
+                "BeamIndex": 0,
+                "BeamSwitch": 0
+            },
+            {
+                "BeamIndex": 1,
+                "BeamSwitch": 0
+            },
+            {
+                "BeamIndex": 2,
+                "BeamSwitch": 0
+            },
+            {
+                "BeamIndex": 3,
+                "BeamSwitch": 0
+            },
+            {
+                "BeamIndex": 4,
+                "BeamSwitch": 0
+            },
+            {
+                "BeamIndex": 5,
+                "BeamSwitch": 0
+            },
+            {
+                "BeamIndex": 6,
+                "BeamSwitch": 0
+            },
+            {
+                "BeamIndex": 7,
+                "BeamSwitch": 0
+            }
+        ]
+    },
+    "beamBasicCFG": {
+        "beamSum": 8,
+        "Item": [
+            {
+                "beamIndex": 0,
+                "beamType": 0,
+                "dlBeamCenterFreq": 1440000,
+                "ulBeamCenterFreq": 1440000,
+                "beamBW": 0,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1663916916
+            },
+            {
+                "beamIndex": 1,
+                "beamType": 1,
+                "dlBeamCenterFreq": 19008000,
+                "ulBeamCenterFreq": 19008000,
+                "beamBW": 1,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1611123116
+            },
+            {
+                "beamIndex": 2,
+                "beamType": 1,
+                "dlBeamCenterFreq": 19008000,
+                "ulBeamCenterFreq": 19008000,
+                "beamBW": 0,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1611123116
+            },
+            {
+                "beamIndex": 3,
+                "beamType": 1,
+                "dlBeamCenterFreq": 19008000,
+                "ulBeamCenterFreq": 19008000,
+                "beamBW": 0,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1611123116
+            },
+            {
+                "beamIndex": 4,
+                "beamType": 1,
+                "dlBeamCenterFreq": 1440000,
+                "ulBeamCenterFreq": 1440000,
+                "beamBW": 0,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1611123116
+            },
+            {
+                "beamIndex": 5,
+                "beamType": 1,
+                "dlBeamCenterFreq": 19008000,
+                "ulBeamCenterFreq": 19008000,
+                "beamBW": 1,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1611123116
+            },
+            {
+                "beamIndex": 6,
+                "beamType": 1,
+                "dlBeamCenterFreq": 1440000,
+                "ulBeamCenterFreq": 1440000,
+                "beamBW": 0,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1611123116
+            },
+            {
+                "beamIndex": 7,
+                "beamType": 1,
+                "dlBeamCenterFreq": 1440000,
+                "ulBeamCenterFreq": 1440000,
+                "beamBW": 0,
+                "phaseArrayAerialMode": 0,
+                "beamCFGtakeTimer": 1611123116
+            }
+        ]
+    },
+    "RandomBeamCFG": [
+        {
+            "sGnbId": 38,
+            "beamSum": 1,
+            "Item": [
+                {
+                    "BeamPosSum": 500,
+                    "subitem": [
+                        {
+                            "BeamPosIndex": 1,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 3300000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 2,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 3300000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 3,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 300000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 4,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 2700000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 5,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 0,
+                            	"BeamPosPtichAngle": 0
+                        },
+                        {
+                            "BeamPosIndex": 6,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle":45000
+                        },
+                        {
+                            "BeamPosIndex": 7,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 2400000,
+                            "BeamPosPtichAngle": 78000
+                        },
+                        {
+                            "BeamPosIndex": 8,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 2100000,
+                            "BeamPosPtichAngle": 555000
+                        },
+                        {
+                            "BeamPosIndex": 9,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 2400000,
+                            "BeamPosPtichAngle": 545000
+                        },
+                        {
+                            "BeamPosIndex": 10,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 2620000,
+                            "BeamPosPtichAngle": 550000
+                        },
+                        {
+                            "BeamPosIndex": 11,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 2600000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 12,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 13,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 14,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 15,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 16,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 17,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 18,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 19,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 20,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 21,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 22,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 23,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 24,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 25,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 26,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 27,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 28,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 29,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 30,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 31,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 32,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 33,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 34,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 35,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 36,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 37,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 38,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 39,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 40,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 41,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 42,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 43,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 44,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 45,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 46,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 47,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 48,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 49,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 50,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 51,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 52,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 53,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 54,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 55,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 56,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 57,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 58,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 59,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 60,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 61,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 62,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 63,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 64,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 65,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 66,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 67,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 68,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 69,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 70,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 71,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 72,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 73,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 74,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 75,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 76,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 77,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 78,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 79,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 80,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 81,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 82,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 83,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 84,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 85,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 86,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 87,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 88,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 89,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 90,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 91,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 92,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 93,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 94,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 95,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 96,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 97,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 98,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 99,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 100,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 101,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 102,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 103,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 104,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 105,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 106,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 107,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 108,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 109,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 110,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 111,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 112,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 113,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 114,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 115,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 116,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 117,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 118,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 119,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 120,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 121,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 122,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 123,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 124,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 125,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 126,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 127,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 128,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 129,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 130,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 131,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 132,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 133,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 134,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 135,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 136,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 137,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 138,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 139,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 140,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 141,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 142,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 143,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 144,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 145,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 146,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 147,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 148,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 149,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 150,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 151,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 152,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 153,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 154,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 155,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 156,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 157,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 158,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 159,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 160,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 161,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 162,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 163,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 164,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 165,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 166,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 167,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 168,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 169,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 170,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 171,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 172,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 173,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 174,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 175,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 176,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 177,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 178,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 179,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 180,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 181,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 182,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 183,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 184,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 185,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 186,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 187,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 188,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 189,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 190,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 191,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 192,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 193,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 194,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 195,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 196,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 197,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 198,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 199,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 200,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 201,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 202,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 203,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 204,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 205,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 206,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 207,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 208,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 209,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 210,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 211,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 212,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 213,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 214,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 215,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 216,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 217,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 218,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 219,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 220,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 221,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 222,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 223,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 224,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 225,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 226,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 227,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 228,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 229,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 230,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 231,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 232,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 233,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 234,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 235,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 236,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 237,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 238,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 239,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 240,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 241,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 242,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 243,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 244,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 245,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 246,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 247,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 248,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 249,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 250,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 251,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 252,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 253,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 254,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 255,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 256,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 257,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 258,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 259,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 260,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 261,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 262,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 263,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 264,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 265,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 266,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 267,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 268,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 269,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 270,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 271,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 272,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 273,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 274,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 275,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 276,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 277,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 278,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 279,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 280,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 281,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 282,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 283,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 284,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 285,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 286,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 287,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 288,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 289,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 290,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 291,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 292,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 293,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 294,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 295,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 296,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 297,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 298,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 299,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 300,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 301,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 302,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 303,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 304,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 305,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 306,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 307,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 308,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 309,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 310,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 311,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 312,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 313,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 314,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 315,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 316,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 317,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 318,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 319,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 320,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 321,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 322,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 323,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 324,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 325,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 326,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 327,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 328,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 329,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 330,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 331,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 332,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 333,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 334,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 335,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 336,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 337,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 338,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 339,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 340,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 341,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 342,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 343,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 344,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 345,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 346,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 347,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 348,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 349,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 350,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 351,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 352,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 353,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 354,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 355,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 356,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 357,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 358,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 359,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 360,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 361,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 362,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 363,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 364,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 365,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 366,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 367,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 368,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 369,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 370,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 371,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 372,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 373,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 374,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 375,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 376,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 377,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 378,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 379,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 380,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 381,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 382,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 383,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 384,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 385,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 386,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 387,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 388,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 389,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 390,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 391,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 392,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 393,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 394,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 395,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 396,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 397,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 398,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 399,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 400,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 401,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 402,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 403,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 404,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 405,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 406,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 407,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 408,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 409,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 410,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 411,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 412,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 413,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 414,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 415,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 416,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 417,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 418,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 419,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 420,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 421,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 422,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 423,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 424,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 425,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 426,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 427,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 428,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 429,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 430,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 431,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 432,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 433,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 434,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 435,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 436,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 437,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 438,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 439,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 440,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 441,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 442,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 443,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 444,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 445,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 446,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 447,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 448,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 449,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 450,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 451,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 452,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 453,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 454,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 455,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 456,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 457,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 458,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 459,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 460,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 461,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 462,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 463,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 464,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 465,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 466,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 467,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 468,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 469,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 470,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 471,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 472,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 473,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 474,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 475,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 476,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 477,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 478,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 479,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 480,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 481,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 482,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 483,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 484,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 485,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 486,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 487,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 488,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 489,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 490,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 491,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 492,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 493,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 494,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 495,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 496,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 497,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 498,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 499,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        },
+                        {
+                            "BeamPosIndex": 500,
+                            "3dbBeamWidth": 55000,
+                            "BeamPosWavepos": 900000,
+                            "BeamPosPtichAngle": 45000
+                        }
+
+                    ]
+                }
+            ]
+        }
+    ],
+    "BeamPlanningInfoCFG": {
+        "BeamSchemeSum": 8,
+        "Item": [
+            {
+                "SchemeIndex": 0,
+                "OperationType": 0,
+                "BeamIndex": 0,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 150,
+                        "latitude": 50,
+                        "altitude": 65500
+                    },
+                    "BeamGirdInfo": 45612
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            },
+            {
+                "SchemeIndex": 1,
+                "OperationType": 0,
+                "BeamIndex": 1,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 140,
+                        "latitude": 80,
+                        "altitude": 6550
+                    },
+                    "BeamGirdInfo": 4256
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            },
+            {
+                "SchemeIndex": 2,
+                "OperationType": 0,
+                "BeamIndex": 2,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 141,
+                        "latitude": 80,
+                        "altitude": 6550
+                    },
+                    "BeamGirdInfo": 4256
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            },
+            {
+                "SchemeIndex": 3,
+                "OperationType": 0,
+                "BeamIndex": 3,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 142,
+                        "latitude": 80,
+                        "altitude": 6550
+                    },
+                    "BeamGirdInfo": 4256
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            },
+            {
+                "SchemeIndex": 4,
+                "OperationType": 0,
+                "BeamIndex": 4,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 142,
+                        "latitude": 80,
+                        "altitude": 6550
+                    },
+                    "BeamGirdInfo": 4256
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            },
+            {
+                "SchemeIndex": 5,
+                "OperationType": 0,
+                "BeamIndex": 5,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 142,
+                        "latitude": 80,
+                        "altitude": 6550
+                    },
+                    "BeamGirdInfo": 4256
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            },
+            {
+                "SchemeIndex": 6,
+                "OperationType": 0,
+                "BeamIndex": 6,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 142,
+                        "latitude": 80,
+                        "altitude": 6550
+                    },
+                    "BeamGirdInfo": 4256
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            },
+            {
+                "SchemeIndex": 7,
+                "OperationType": 0,
+                "BeamIndex": 7,
+                "BeamType": 1,
+                "BeamServicePosType": 0,
+                "BeamServicePos": {
+                    "BeamCenterPos": {
+                        "longitude": 142,
+                        "latitude": 80,
+                        "altitude": 6550
+                    },
+                    "BeamGirdInfo": 4256
+                },
+                "BeamValidStartTime": 0,
+                "ServiceDuration": 60000
+            }
+        ]
+    }
+}

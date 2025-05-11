@@ -1,0 +1,89 @@
+{
+    "local_log_path": "C:\\Users\\Lenovo\\Desktop\\tsx_auto\\log",
+    "sgnb": {
+        "xing1_cpu1": {
+            "exec_path": "/root/D2000V",
+            "log_path": "/var/log/igs",
+            "sgnb_ip": "192.168.1.131",
+            "sgnb_user": "root",
+            "sgnb_pwd": "d2000v",
+            "sgnb_port": 22
+        },
+        "xing1_cpu2": {
+            "exec_path": "/root/D2000V",
+            "log_path": "/var/log/igs",
+            "sgnb_ip": "192.168.1.132",
+            "sgnb_user": "root",
+            "sgnb_pwd": "d2000v",
+            "sgnb_port": 22
+        },
+        "xing3_cpu1": {
+            "exec_path": "/root/D2000V",
+            "log_path": "/var/log/igs",
+            "sgnb_ip": "192.168.1.133",
+            "sgnb_user": "root",
+            "sgnb_pwd": "d2000v",
+            "sgnb_port": 22
+        },
+        "xing3_cpu2": {
+            "exec_path": "/root/D2000V",
+            "log_path": "/var/log/igs",
+            "sgnb_ip": "192.168.1.134",
+            "sgnb_user": "root",
+            "sgnb_pwd": "d2000v",
+            "sgnb_port": 22
+        }
+    },
+    "ue": {
+        "ue1": {
+            "ue_mac": {
+                "exec_path": "/home/ue/stack_20250307000813",
+                "log_path": "/mnt/rdisk",
+                "ue_ip": "192.168.3.193",
+                "ue_user": "root",
+                "ue_pwd": "innogence2019",
+                "ue_port": 22
+            },
+            "ue_phy": {
+                "exec_path": "/run/media/mmcblk1p1",
+                "log_path": "/mnt/rdisk",
+                "ue_ip": "192.168.3.192",
+                "ue_user": "root",
+                "ue_pwd": "root",
+                "ue_port": 22
+            }
+        }
+    },
+    "amf": {
+        "amf1": {
+            "exec_path": "/home/agtuser/yyl",
+            "log_path": "/home/agtuser/yyl",
+            "amf_ip": "192.168.90.11",
+            "amf_user": "agtuser",
+            "amf_pwd": "admin123",
+            "amf_port": 22
+        }
+    },
+    "jump": {
+        "jump1": {
+            "jump_ip": "10.3.240.26",
+            "jump_user": "administrator",
+            "jump_pwd": "123456",
+            "jump_port": 22
+        }
+    },
+    "ftp": {
+        "ftp1": {
+            "ftp_ip": "10.0.20.240",
+            "ftp_user": "anonymous",
+            "ftp_pwd": "anonymous",
+            "FTP_VENUS_DAILY_VER_PATH": "GNBG1/VENUS/DAILY_VERSION/",
+            "FTP_PROTOTYPE_DAILY_VER_PATH": "UEG1/PROTOTYPE/DAILY_VERSION/"
+        }
+    },
+    "singal": {
+        "signal1": {
+            "signal_ip": "30.74.73.245"
+        }
+    }
+}
