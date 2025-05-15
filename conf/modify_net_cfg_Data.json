@@ -4,7 +4,7 @@
         "description": "更改基站ID, *",
         "position1": {
             "position": 0,
-            "value": "38"
+            "value": "120"
         }
     },
     {
@@ -12,7 +12,7 @@
         "description": "L3地址本端,对端信息",
         "position1": {
             "position": 0,
-            "value": "16.22.2.100"
+            "value": "192.168.90.143"
         }
     },
     {
@@ -20,7 +20,7 @@
         "description": "第一个AMF对端地址",
         "position1": {
             "position": 0,
-            "value": "45.10.2.50"
+            "value": "192.168.90.10"
         }
     },
     {
@@ -28,14 +28,14 @@
         "description": "L2地址本端、对端信息(天枢星项目:只是对端有效,本端cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.105"
+            "value": "192.168.90.144"
         }
     },
     {
         "pattern": ".//NR_IP_CFG/cfgIdx[.='3']/..ipAddr",
         "position1": {
             "position": 0,
-            "value": "16.22.2.11"
+            "value": "192.168.90.11"
         }
     },
     {
@@ -43,14 +43,14 @@
         "description": "OM本端对端,对端信息",
         "position1": {
             "position": 0,
-            "value": "16.22.2.75"
+            "value": "192.168.90.148"
         }
     },
     {
         "pattern": ".//NR_IP_CFG/cfgIdx[.='5']/..ipAddr",
         "position1": {
             "position": 0,
-            "value": "167.22.2.75"
+            "value": "192.168.3.178"
         }
     },
     {
@@ -58,14 +58,14 @@
         "description": "默认ipv4网关",
         "position1": {
             "position": 0,
-            "value": "16.22.2.10"
+            "value": "192.168.90.10"
         }
     },
     {
         "pattern": ".//NR_IP_CFG/cfgIdx[.='7']/..ipAddr",
         "position1": {
             "position": 0,
-            "value": "16.22.2.71"
+            "value": "192.168.100.100"
         }
     },
     {
@@ -73,7 +73,7 @@
         "description": "SCF配置,对应NR_IP_CFG为15、16",
         "position1": {
             "position": 0,
-            "value": "16.22.2.102"
+            "value": "10.0.30.100"
         }
     },
     {
@@ -81,7 +81,7 @@
         "description": "SCF配置,对应NR_IP_CFG为15、16",
         "position1": {
             "position": 0,
-            "value": "16.22.2.100"
+            "value": "192.168.90.143"
         }
     },
     {
@@ -96,7 +96,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "167.22.2.160"
+            "value": "192.168.90.144"
         }
     },
     {
@@ -104,7 +104,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.105"
+            "value": "192.168.90.145"
         }
     },
     {
@@ -112,7 +112,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.106"
+            "value": "192.168.90.146"
         }
     },
     {
@@ -120,7 +120,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.107"
+            "value": "192.168.90.147"
         }
     },
     {
@@ -128,7 +128,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.108"
+            "value": "192.168.90.184"
         }
     },
     {
@@ -136,7 +136,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.109"
+            "value": "192.168.90.185"
         }
     },
     {
@@ -144,7 +144,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.110"
+            "value": "192.168.90.186"
         }
     },
     {
@@ -152,7 +152,7 @@
         "description": "天枢星项目,L2本端地址(cfgIdx从20-27)",
         "position1": {
             "position": 0,
-            "value": "16.22.2.111"
+            "value": "192.168.90.187"
         }
     },
     {
@@ -167,7 +167,7 @@
         "description": "pcap server地址",
         "position1": {
             "position": 0,
-            "value": "127.0.0.1"
+            "value": "192.168.3.244"
         }
     },
     {
@@ -213,7 +213,7 @@
         "pattern": ".//NR_GNBRSVPARA/enableBypassAMFestablish",
         "position1": {
             "position": 0,
-            "value": "1"
+            "value": "0"
         }
     }, 
     {

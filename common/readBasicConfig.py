@@ -15,7 +15,7 @@ def __obtain_basic_cfg():
     __filename = 'basic_config.json'
     parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     global __filepath
-    __filepath = os.path.join(parent_dir, 'config', __filename)
+    __filepath = os.path.join(parent_dir, 'conf', __filename)
     with open(__filepath, 'r') as file:
         return json.load(file)
 
@@ -27,11 +27,12 @@ __ue_list = []
 __amf_list = []
 __jump_list = []
 __ftp_list = []
-__singal_list = []
+__signal_list = []
+__vam_list = []
 
 
 def __get__sgnb_list():
-    if __sgnb_list != []:
+    if __sgnb_list:
         return
     try:
         for sgnb in __cfg_data['sgnb']:
@@ -41,13 +42,13 @@ def __get__sgnb_list():
 
 
 def get_sgnb_len() -> int:
-    if __sgnb_list == []:
+    if not __sgnb_list:
         __get__sgnb_list()
     return len(__sgnb_list)
 
 
 def get_sgnb_name(index: int) -> str:
-    if __sgnb_list == []:
+    if not __sgnb_list:
         __get__sgnb_list()
     if index >= len(__sgnb_list):
         index = len(__sgnb_list) - 1
@@ -55,13 +56,13 @@ def get_sgnb_name(index: int) -> str:
 
 
 def get_sgnb_cfg(index: int = 0) -> dict:
-    if __sgnb_list == []:
+    if not __sgnb_list:
         __get__sgnb_list()
     return __cfg_data['sgnb'][get_sgnb_name(index)]
 
 
 def __get__ue_list():
-    if __ue_list != []:
+    if __ue_list:
         return
     try:
         for ue in __cfg_data['ue']:
@@ -71,13 +72,13 @@ def __get__ue_list():
 
 
 def get_ue_len() -> int:
-    if __ue_list == []:
+    if not __ue_list:
         __get__ue_list()
     return len(__ue_list)
 
 
 def get_ue_name(index: int) -> str:
-    if __ue_list == []:
+    if not __ue_list:
         __get__ue_list()
     if index >= len(__ue_list):
         index = len(__ue_list) - 1
@@ -85,19 +86,19 @@ def get_ue_name(index: int) -> str:
 
 
 def get_ue_mac_cfg(index: int = 0) -> dict:
-    if __ue_list == []:
+    if not __ue_list:
         __get__ue_list()
     return __cfg_data['ue'][get_ue_name(index)]['ue_mac']
 
 
 def get_ue_phy_cfg(index: int = 0) -> dict:
-    if __ue_list == []:
+    if not __ue_list:
         __get__ue_list()
     return __cfg_data['ue'][get_ue_name(index)]['ue_phy']
 
 
 def __get__amf_list():
-    if __amf_list != []:
+    if __amf_list:
         return
     try:
         for amf in __cfg_data['amf']:
@@ -107,13 +108,13 @@ def __get__amf_list():
 
 
 def get_amf_len() -> int:
-    if __amf_list == []:
+    if not __amf_list:
         __get__amf_list()
     return len(__amf_list)
 
 
 def get_amf_name(index: int) -> str:
-    if __amf_list == []:
+    if not __amf_list:
         __get__amf_list()
     if index >= len(__amf_list):
         index = len(__amf_list) - 1
@@ -121,13 +122,13 @@ def get_amf_name(index: int) -> str:
 
 
 def get_amf_cfg(index: int = 0) -> dict:
-    if __amf_list == []:
+    if not __amf_list:
         __get__amf_list()
     return __cfg_data['amf'][get_amf_name(index)]
 
 
 def __get__jump_list():
-    if __jump_list != []:
+    if __jump_list:
         return
     try:
         for jump in __cfg_data['jump']:
@@ -137,13 +138,13 @@ def __get__jump_list():
 
 
 def get_jump_len() -> int:
-    if __jump_list == []:
+    if not __jump_list:
         __get__jump_list()
     return len(__jump_list)
 
 
 def get_jump_name(index: int) -> str:
-    if __jump_list == []:
+    if not __jump_list:
         __get__jump_list()
     if index >= len(__jump_list):
         index = len(__jump_list) - 1
@@ -151,13 +152,13 @@ def get_jump_name(index: int) -> str:
 
 
 def get_jump_cfg(index: int = 0) -> dict:
-    if __jump_list == []:
+    if not __jump_list:
         __get__jump_list()
     return __cfg_data['jump'][get_jump_name(index)]
 
 
 def __get__ftp_list():
-    if __ftp_list != []:
+    if __ftp_list:
         return
     try:
         for ftp in __cfg_data['ftp']:
@@ -167,13 +168,13 @@ def __get__ftp_list():
 
 
 def get_ftp_len() -> int:
-    if __ftp_list == []:
+    if not __ftp_list:
         __get__ftp_list()
     return len(__ftp_list)
 
 
 def get_ftp_name(index: int) -> str:
-    if __ftp_list == []:
+    if not __ftp_list:
         __get__ftp_list()
     if index >= len(__ftp_list):
         index = len(__ftp_list) - 1
@@ -181,39 +182,67 @@ def get_ftp_name(index: int) -> str:
 
 
 def get_ftp_cfg(index: int = 0) -> dict:
-    if __ftp_list == []:
+    if not __ftp_list:
         __get__ftp_list()
     return __cfg_data['ftp'][get_ftp_name(index)]
 
 
-def __get__singal_list():
-    if __singal_list != []:
+def __get__signal_list():
+    if __signal_list:
         return
     try:
-        for singal in __cfg_data['singal']:
-            __singal_list.append(singal)
+        for signal in __cfg_data['signal']:
+            __signal_list.append(signal)
     except Exception as e:
-        raise KeyError(f"Please check the basic config file ftp field ! {e}")
+        raise KeyError(f"Please check the basic config file signal field ! {e}")
 
 
-def get_singal_len() -> int:
-    if __singal_list == []:
-        __get__singal_list()
-    return len(__singal_list)
+def get_signal_len() -> int:
+    if not __signal_list:
+        __get__signal_list()
+    return len(__signal_list)
 
 
-def get_singal_name(index: int) -> str:
-    if __singal_list == []:
-        __get__singal_list()
-    if index >= len(__singal_list):
-        index = len(__singal_list) - 1
-    return __singal_list[index]
+def get_signal_name(index: int) -> str:
+    if not __signal_list:
+        __get__signal_list()
+    if index >= len(__signal_list):
+        index = len(__signal_list) - 1
+    return __signal_list[index]
 
 
-def get_singal_cfg(index: int = 0) -> dict:
-    if __singal_list == []:
-        __get__singal_list()
-    return __cfg_data['singal'][get_singal_name(index)]
+def get_signal_cfg(index: int = 0) -> dict:
+    if not __signal_list:
+        __get__signal_list()
+    return __cfg_data['signal'][get_signal_name(index)]
+
+def __get__vam_list():
+    if __vam_list:
+        return
+    try:
+        for vam in __cfg_data['vam']:
+            __vam_list.append(vam)
+    except Exception as e:
+        raise KeyError(f"Please check the basic config file vam field ! {e}")
+
+def get_vam_len() -> int:
+    if not __vam_list:
+        __get__vam_list()
+    return len(__vam_list)
+
+
+def get_vam_name(index: int) -> str:
+    if not __vam_list:
+        __get__vam_list()
+    if index >= len(__vam_list):
+        index = len(__vam_list) - 1
+    return __vam_list[index]
+
+
+def get_vam_cfg(index: int = 0) -> dict:
+    if not __vam_list:
+        __get__vam_list()
+    return __cfg_data['vam'][get_vam_name(index)]
 
 
 def modify_basic_cfg():

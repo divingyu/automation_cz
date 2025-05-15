@@ -69,7 +69,7 @@ def find_config_file(file_path: str, filename_cfg: str) -> str:
 
 def obtain_cfg_json(filename):
     parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-    __filepath = os.path.join(parent_dir, 'config', filename)
+    __filepath = os.path.join(parent_dir, 'conf', filename)
     with open(__filepath, 'r', encoding = 'utf-8') as file:
         return json.load(file)
 

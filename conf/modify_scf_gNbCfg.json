@@ -2,7 +2,7 @@
     "scfPlanning": {
         "S-gNBid": [
             268435455,
-            38
+            120
         ]
     },
     "BeamSoftSwitchCFG": {
@@ -121,7 +121,7 @@
     },
     "RandomBeamCFG": [
         {
-            "sGnbId": 38,
+            "sGnbId": 120,
             "beamSum": 1,
             "Item": [
                 {

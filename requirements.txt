@@ -5,3 +5,4 @@ pyshark
 paramiko
 matplotlib
 RsInstrument
+telnetlib3

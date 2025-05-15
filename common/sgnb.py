@@ -102,6 +102,10 @@ class SgnbServ(Serv):
             "find . -maxdepth 1 -type f -name 'ttitrace_*' -size +10k -print0 |xargs -0 ls -t | head -n 3 | "
             "awk -F / '{print $2}' | xargs tar -czvf ../sgnb_tti_l2.tar.gz;"
             f"cd {self.log_path} && tar -czvf l1.tar.gz l1/*;"
+            f"cd {self.log_path} && tar -czvf l2_TEXT.tar.gz l2_TEXT/*;"
+            f"cd {self.log_path} && tar -czvf l2_ERR.tar.gz l2_ERR/*;"
+            f"cd {self.log_path} && tar -czvf l3_TEXT.tar.gz l3_TEXT/*;"
+            f"cd {self.log_path} && tar -czvf l3_ERR.tar.gz l3_ERR/*;"
             f"cd {self.log_path};"
             "find . -maxdepth 1 -type f -name '*.pcap' -print0 |xargs -0 tar -czvf sgnb_pcap.tar.gz;"
             f"mkdir -p {self.log_path}/om && cp /var/log/inno/bbu/* -r {self.log_path}/om;"
@@ -123,8 +127,10 @@ class SgnbServ(Serv):
             print(f"execuate compress fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
         print("")
         sgnb_file_list = [
-            "l2.log",
-            "l3.log",
+            "l2_TEXT.tar.gz",
+            "l2_ERR.tar.gz",
+            "l3_TEXT.tar.gz",
+            "l3_ERR.tar.gz",
             "om.tar.gz",
             "sgnb_tti_l2.tar.gz",
             "l1.tar.gz",
@@ -189,7 +195,7 @@ class SgnbServ(Serv):
 
     def start_sgnb_process(self, new_architecture=True, is_copy_cfg=False):
         if new_architecture:
-            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start_dub.sh -f 3.8G > " \
+            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start.sh > " \
                   "/dev/null 2>&1 &"
             print(
                 f"Starting SGNB new architecture process. {self.label} host:{self.target_host}"
@@ -204,7 +210,7 @@ class SgnbServ(Serv):
                 )
                 self.exec_server_cmd(copy_cmd, is_copy_cfg)
         else:
-            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start_dub.sh -f 3.8G -o > " \
+            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start.sh -o > " \
                   "/dev/null 2>&1 &"
             print(
                 f"Starting SGNB old architecture process. {self.label} host:{self.target_host}"
@@ -220,7 +226,7 @@ class SgnbServ(Serv):
                 self.exec_server_cmd(copy_cmd, is_copy_cfg)
 
     def stop_sgnb_process(self):
-        cmd = f'source /etc/profile > /dev/null;cd {self.exec_path}; ./kill.sh'
+        cmd = f'source /etc/profile > /dev/null;cd {self.exec_path}; ./stop.sh'
         print(f"Stopping SGNB process. Sgnb host:{self.target_host}")
         stdin, stdout, stderr = self.target_ssh_client.exec_command(cmd)
         channel = stdout.channel
