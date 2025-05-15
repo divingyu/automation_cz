@@ -15,7 +15,7 @@ def __obtain_basic_cfg():
     __filename = 'basic_config.json'
     parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     global __filepath
-    __filepath = os.path.join(parent_dir, 'config', __filename)
+    __filepath = os.path.join(parent_dir, 'conf', __filename)
     with open(__filepath, 'r') as file:
         return json.load(file)
 

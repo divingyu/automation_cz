@@ -189,7 +189,7 @@ class SgnbServ(Serv):
 
     def start_sgnb_process(self, new_architecture=True, is_copy_cfg=False):
         if new_architecture:
-            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start_dub.sh -f 3.8G > " \
+            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start.sh > " \
                   "/dev/null 2>&1 &"
             print(
                 f"Starting SGNB new architecture process. {self.label} host:{self.target_host}"
@@ -204,7 +204,7 @@ class SgnbServ(Serv):
                 )
                 self.exec_server_cmd(copy_cmd, is_copy_cfg)
         else:
-            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start_dub.sh -f 3.8G -o > " \
+            cmd = f"source /etc/profile > /dev/null;cd {self.exec_path};nohup sh start.sh -o > " \
                   "/dev/null 2>&1 &"
             print(
                 f"Starting SGNB old architecture process. {self.label} host:{self.target_host}"
@@ -220,7 +220,7 @@ class SgnbServ(Serv):
                 self.exec_server_cmd(copy_cmd, is_copy_cfg)
 
     def stop_sgnb_process(self):
-        cmd = f'source /etc/profile > /dev/null;cd {self.exec_path}; ./kill.sh'
+        cmd = f'source /etc/profile > /dev/null;cd {self.exec_path}; ./stop.sh'
         print(f"Stopping SGNB process. Sgnb host:{self.target_host}")
         stdin, stdout, stderr = self.target_ssh_client.exec_command(cmd)
         channel = stdout.channel

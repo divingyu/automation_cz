@@ -26,7 +26,8 @@ class FtpServ:
 
     def obtain_venus_newest_version(self) -> str:
         newest_version = self.ftp.nlst(self.FTP_VENUS_DAILY_VER_PATH)[-1]
-        file_newest_version = self.ftp.nlst(newest_version)[-1]
+        file_newest_version = self.ftp.nlst(newest_version)[1]
+        print(file_newest_version)
         return file_newest_version
 
     def obtain_venus_file(self, filename: str) -> str:
@@ -87,7 +88,7 @@ class FtpServ:
                             pbar.update(len(data))
 
                         self.ftp.retrbinary(f"RETR {remote_file_path}", callback)
-                local_file_paths.append(local_file_path)
+                local_file_paths.append(local_filename)
             return local_file_paths
         except ftplib.error_perm as e:
             print(f"F Error: {e}")

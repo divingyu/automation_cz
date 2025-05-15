@@ -164,13 +164,11 @@ def fully_automated_upgrade_sgnb_version(
     if sgnb_local_version_path == "":
         if version_date == "":
             ftp = FtpServ(rbc.get_ftp_cfg())
-            sgnb_local_version_path = ftp.download_version_files(
-                rbc.LOCAL_LOG_PATH, ftp.obtain_venus_newest_version()
+            sgnb_local_version_path = ftp.download_version_files(ftp.obtain_venus_newest_version()
             )[0]
         else:
             ftp = FtpServ(rbc.get_ftp_cfg())
-            sgnb_local_version_path = ftp.download_version_files(
-                rbc.LOCAL_LOG_PATH, ftp.obtain_venus_file(version_date)
+            sgnb_local_version_path = ftp.download_version_files(ftp.obtain_venus_file(version_date)
             )[0]
     print(sgnb_local_version_path)
     sgnb_uncompress_path = upg.uncompress_tar_gz_file(sgnb_local_version_path)

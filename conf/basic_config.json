@@ -1,45 +1,29 @@
 {
-    "local_log_path": "C:\\Users\\Lenovo\\Desktop\\tsx_auto\\log",
+    "local_log_path": "D:\\automation_cz\\log",
     "sgnb": {
-        "xing1_cpu1": {
-            "exec_path": "/root/D2000V",
+        "SGNB_cpu1": {
+            "exec_path": "/var/data/YYL/20250515181329",
             "log_path": "/var/log/igs",
-            "sgnb_ip": "192.168.1.131",
+            "sgnb_ip": "192.168.3.83",
             "sgnb_user": "root",
-            "sgnb_pwd": "d2000v",
+            "sgnb_pwd": "",
             "sgnb_port": 22
         },
-        "xing1_cpu2": {
-            "exec_path": "/root/D2000V",
+        "SGNB_cpu2": {
+            "exec_path": "/var/data/YYL/20250515181329",
             "log_path": "/var/log/igs",
-            "sgnb_ip": "192.168.1.132",
+            "sgnb_ip": "192.168.3.84",
             "sgnb_user": "root",
-            "sgnb_pwd": "d2000v",
-            "sgnb_port": 22
-        },
-        "xing3_cpu1": {
-            "exec_path": "/root/D2000V",
-            "log_path": "/var/log/igs",
-            "sgnb_ip": "192.168.1.133",
-            "sgnb_user": "root",
-            "sgnb_pwd": "d2000v",
-            "sgnb_port": 22
-        },
-        "xing3_cpu2": {
-            "exec_path": "/root/D2000V",
-            "log_path": "/var/log/igs",
-            "sgnb_ip": "192.168.1.134",
-            "sgnb_user": "root",
-            "sgnb_pwd": "d2000v",
+            "sgnb_pwd": "",
             "sgnb_port": 22
         }
     },
     "ue": {
         "ue1": {
             "ue_mac": {
-                "exec_path": "/home/ue/stack_20250307000813",
+                "exec_path": "/home/ci_test_ue_stack",
                 "log_path": "/mnt/rdisk",
-                "ue_ip": "192.168.3.193",
+                "ue_ip": "192.168.3.129",
                 "ue_user": "root",
                 "ue_pwd": "innogence2019",
                 "ue_port": 22
@@ -47,7 +31,7 @@
             "ue_phy": {
                 "exec_path": "/run/media/mmcblk1p1",
                 "log_path": "/mnt/rdisk",
-                "ue_ip": "192.168.3.192",
+                "ue_ip": "192.168.3.130",
                 "ue_user": "root",
                 "ue_pwd": "root",
                 "ue_port": 22
@@ -77,11 +61,11 @@
             "ftp_ip": "10.0.20.240",
             "ftp_user": "anonymous",
             "ftp_pwd": "anonymous",
-            "FTP_VENUS_DAILY_VER_PATH": "GNBG1/VENUS/DAILY_VERSION/",
-            "FTP_PROTOTYPE_DAILY_VER_PATH": "UEG1/PROTOTYPE/DAILY_VERSION/"
+            "FTP_VENUS_DAILY_VER_PATH": "GNBG1/VENUS/DUBHE_BRANCH_DAILY_VERSION",
+            "FTP_PROTOTYPE_DAILY_VER_PATH": "UEG1/PROTOTYPE/DAILY_VERSION/X86"
         }
     },
-    "singal": {
+    "signal": {
         "signal1": {
             "signal_ip": "30.74.73.245"
         }

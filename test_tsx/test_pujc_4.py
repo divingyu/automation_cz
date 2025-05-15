@@ -1,9 +1,9 @@
 import time
-from module.operation_tsx import *
-from module.tshark import *
-from config.testData import TsxData
-from module import readBasicConfig as rbc
-from module.singal import Singal
+from common.operation_tsx import *
+from common.tshark import *
+from conf.testData import TsxData
+from common import readBasicConfig as rbc
+from common.signal import Signal
 from func_timeout import func_set_timeout, FunctionTimedOut
 import re
 import pytest
