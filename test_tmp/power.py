@@ -56,21 +56,24 @@ if __name__ == '__main__':
         print(sgnb_a.execuate_l3_cmd('show_beam_pattern'))
         print(sgnb_a.execuate_l3_cmd('showPhyCellStatus'))
         vam.block_all_channels(rbc.get_vam_cfg()["vam_ip"],rbc.get_vam_cfg()["vam_port"])
-        vam.set_attenuation(rbc.get_vam_cfg()["vam_ip"],rbc.get_vam_cfg()["vam_port"],2,5)
+        vam.set_attenuation(rbc.get_vam_cfg()["vam_ip"],rbc.get_vam_cfg()["vam_port"],1,5)
 
         shell_a = sgnb_a.telnet_L2('0x20')
-        shell_b = sgnb_a.telnet_L2('0x21')
-        print(sgnb_a.execuate_l2_cmd(shell_a,'sw dlmcs 1 15'))
-        print(sgnb_a.execuate_l2_cmd(shell_a,'sw ulmcs 1 14'))
+        print(sgnb_a.execuate_l2_cmd(shell_a,'sw dlmcs 0 24'))
+        print(sgnb_a.execuate_l2_cmd(shell_a,'sw ulmcs 0 25'))
 
         # 终端发起接入
         attach_ue(ue_mac_serv,ue_phy_serv)
         print(sgnb_a.execuate_l3_cmd("show_all_ue_msg"))
-        execute_dl_udp_traffic(ue_mac_serv, amf_serv, "dl_udp_traffic.txt", bw_size="100M",
+        execute_dl_udp_traffic(ue_mac_serv, amf_serv, "dl_udp_traffic.txt", bw_size="350M",
                                length=1300, duration_time=60, port=52431)
-        execute_ul_udp_traffic(ue_mac_serv, amf_serv, "ul_udp_traffic.txt", bw_size="100M",
+        execute_ul_udp_traffic(ue_mac_serv, amf_serv, "ul_udp_traffic.txt", bw_size="350M",
                                length=1300, duration_time=60, port=52432)
-        time.sleep(62)
+        # execute_dl_udp_traffic(ue_mac_serv, amf_serv, "dl_udp_traffic.txt", bw_size="700M",
+        #                        length=1300, duration_time=99999, port=52431)
+        # execute_ul_udp_traffic(ue_mac_serv, amf_serv, "ul_udp_traffic.txt", bw_size="400M",
+        #                        length=1300, duration_time=99999, port=52432)
+        time.sleep(60)
         print("业务执行完毕")
     except KeyboardInterrupt:
         print("KeyboardInterrupt: Exiting the program.")
@@ -79,6 +82,8 @@ if __name__ == '__main__':
             sgnb.stop_sgnb_process()
         if ue_mac_serv is not None and ue_phy_serv is not None:
             release_ue(ue_mac_serv,ue_phy_serv)
+        if amf_serv is not None:
+            stop_udp_traffic(ue_mac_serv,amf_serv)
         home_file_path = local_log_path(rbc.LOCAL_LOG_PATH)
         download_log(serv_resource,home_file_path)
         ####清理log####

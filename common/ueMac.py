@@ -73,7 +73,7 @@ class UeMacServ(Serv):
         try:
             self.exec_server_cmd(cmd, False)
         except paramiko.SSHException as ssh_ex:
-            print(f"execuate capture pcap fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
+            print(f"execute capture pcap fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
 
     def kill_iperf_com(self):
         if self.iperf_cmd != '':
