@@ -100,11 +100,12 @@ class AmfServ(Serv):
                     stdin, stdout, stderr = self.target_ssh_client.exec_command(kill_cmd)
                     stdout.read().decode()
 
-    def execuate_udp_client(self, ue_ip, bw_size, during_time: int = 9999, port: int = 5001):
-        self.iperf_cmd = f'nohup iperf -u -c {ue_ip} -b {bw_size} -B {self.target_host} -i 1 -l 1300 -t {during_time}' \
-                         f' -p {port} > /dev/null 2>&1 &'
+    def execute_udp_client(self, ue_ip, bw_size, length: int = 1300, during_time: int = 9999, port: int = 5001):
+        self.iperf_cmd = f'nohup iperf -u -c {ue_ip} -B {self.target_host} -b {bw_size} -i 1 -l {length} -t ' \
+                         f'{during_time} -p {port} > /dev/null 2>&1 &'
         self.kill_iperf_com()
         print(f"Beginning to perform DL traffic.  {self.label} Host:{self.target_host}...")
+        print(f"DL CMD : {self.iperf_cmd}")
         stdin, stdout, stderr = self.target_ssh_client.exec_command(self.iperf_cmd)
         channel = stdout.channel
         if channel is not None:
@@ -112,15 +113,16 @@ class AmfServ(Serv):
                 if channel.recv_ready():
                     channel.recv(1024)
             except paramiko.SSHException as ssh_ex:
-                print(f"UDP Client execuate fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
+                print(f"UDP Client execute fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
         else:
             print(f"UDP Client Channel is None. Command execution failed.  {self.label} Host:{self.target_host}")
 
-    def execuate_udp_server(self, filename: str = 'ul_udp.txt', port: int = 5001):
+    def execute_udp_server(self, filename: str = 'ul_udp.txt', port: int = 5001):
         self.rate_file = filename
         self.iperf_cmd = f'cd {self.log_path}; nohup iperf -u -s -i 1 -B {self.target_host} -p {port} > ' \
                          f'{self.rate_file} &'
         self.kill_iperf_com()
+        print(f"SERVER CMD : {self.iperf_cmd} {self.label} Host:{self.target_host}")
         stdin, stdout, stderr = self.target_ssh_client.exec_command(self.iperf_cmd)
         channel = stdout.channel
         if channel is not None:
@@ -128,7 +130,7 @@ class AmfServ(Serv):
                 if channel.recv_ready():
                     channel.recv(1024)
             except paramiko.SSHException as ssh_ex:
-                print(f"UDP Server execuate fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
+                print(f"UDP Server execute fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
         else:
             print(f"UDP Server Channel is None. Command execution failed.  {self.label} Host:{self.target_host}")
 

@@ -101,11 +101,12 @@ class UeMacServ(Serv):
                     stdin, stdout, stderr = self.target_ssh_client.exec_command(kill_cmd)
                     stdout.read().decode()
 
-    def execuate_udp_client(self, target_host, bw_size, during_time: int = 9999, port: int = 5001):
-        self.iperf_cmd = f'nohup taskset -c 4 iperf -u -c {target_host} -b {bw_size} -i 1 -l 1300 -t {during_time}' \
+    def execute_udp_client(self, target_host, bw_size, length: int = 1300, during_time: int = 9999, port: int = 5001):
+        self.iperf_cmd = f'nohup taskset -c 4 iperf -u -c {target_host} -b {bw_size} -i 1 -l {length} -t {during_time}' \
                          f' -p {port} > /dev/null 2>&1 &'
         self.kill_iperf_com()
-        print(f"Beginning to perform UL traffic. {self.label} Host:{self.target_host}...")
+        print(f"Beginning to perform UL traffic {self.label} Host:{self.target_host}...")
+        print(f"UL CMD : {self.iperf_cmd}")
         stdin, stdout, stderr = self.target_ssh_client.exec_command(self.iperf_cmd)
         channel = stdout.channel
         if channel is not None:
@@ -113,14 +114,15 @@ class UeMacServ(Serv):
                 if channel.recv_ready():
                     channel.recv(1024)
             except paramiko.SSHException as ssh_ex:
-                print(f"UDP Client execuate fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
+                print(f"UDP Client execute fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
         else:
             print(f"UDP Client Channel is None. Command execution failed.  {self.label}:{self.target_host}")
 
-    def execuate_udp_server(self, filename: str = "dl_udp.txt", port: int = 5001):
+    def execute_udp_server(self, filename: str = "dl_udp.txt", port: int = 5001):
         self.rate_file = filename
         self.iperf_cmd = f'cd {self.log_path}; nohup iperf -s -u -i 1 -p {port} > {self.rate_file} &'
         self.kill_iperf_com()
+        print(f"SERVER CMD: {self.iperf_cmd}. {self.label} Host:{self.target_host}")
         stdin, stdout, stderr = self.target_ssh_client.exec_command(self.iperf_cmd)
         channel = stdout.channel
         if channel is not None:
@@ -128,7 +130,7 @@ class UeMacServ(Serv):
                 if channel.recv_ready():
                     channel.recv(1024)
             except paramiko.SSHException as ssh_ex:
-                print(f"UDP Server execuate fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
+                print(f"UDP Server execute fail! Error: {ssh_ex} on {self.label} Host:{self.target_host}")
         else:
             print(f"UDP Server Channel is None. Command execution failed.  {self.label} Host:{self.target_host}")
 

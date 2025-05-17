@@ -23,27 +23,27 @@ from common.version import FtpServ
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
-def execuate_dl_udp_traffic(ue_obj: UeMacServ, amf_obj: AmfServ, filename: str = "dl_udp.txt", bw_size: str = '50m',
-                            duration_time: int = 9999, port: int = 5001):
+def execute_dl_udp_traffic(ue_obj: UeMacServ, amf_obj: AmfServ, filename: str = "dl_udp.txt", bw_size: str = '50m',
+                           duration_time: int = 9999, length: int = 1300, port: int = 5001):
     if ue_obj.ue_ip == '':
         ue_obj.obtain_ue_ip()
         if ue_obj.ue_ip == '':
             raise ValueError(
                 f"UE ip is not obtained, execution failed, please try to attach the cell again ! Host:{ue_obj.target_host}")
-    ue_obj.execuate_udp_server(filename, port)
-    amf_obj.execuate_udp_client(ue_obj.ue_ip, bw_size, duration_time, port)
+    ue_obj.execute_udp_server(filename, port)
+    amf_obj.execute_udp_client(ue_obj.ue_ip, bw_size, length, duration_time, port)
     # ue_obj.show_udp_rate()
 
 
-def execuate_ul_udp_traffic(ue_obj: UeMacServ, amf_obj: AmfServ, filename: str = "ul_udp.txt", bw_size: str = '50m',
-                            duration_time: int = 9999, port: int = 5001):
+def execute_ul_udp_traffic(ue_obj: UeMacServ, amf_obj: AmfServ, filename: str = "ul_udp.txt", bw_size: str = '50m',
+                           length: int = 1300, duration_time: int = 9999, port: int = 5001):
     if ue_obj.ue_ip == '':
         ue_obj.obtain_ue_ip()
         if ue_obj.ue_ip == '':
             raise ValueError(
                 f"UE ip is not obtained, execution failed, please try to attach the cell again ! Host:{ue_obj.target_host}")
-    amf_obj.execuate_udp_server(filename, port)
-    ue_obj.execuate_udp_client(amf_obj.target_host, bw_size, duration_time, port)
+    amf_obj.execute_udp_server(filename, port)
+    ue_obj.execute_udp_client(amf_obj.target_host, bw_size, length, duration_time, port)
     # amf_obj.show_udp_rate_plt()
     # amf_obj.show_udp_rate()
 
@@ -219,14 +219,10 @@ def fully_automated_upgrade_ue_version(
     if ue_local_version_path == "":
         if version_date == "":
             ftp = FtpServ(rbc.get_ftp_cfg())
-            ue_local_version_path = ftp.download_version_files(
-                rbc.LOCAL_LOG_PATH, ftp.obtain_prototype_newest_version()
-            )[0]
+            ue_local_version_path = ftp.download_version_files(ftp.obtain_prototype_newest_version())[0]
         else:
             ftp = FtpServ(rbc.get_ftp_cfg())
-            ue_local_version_path = ftp.download_version_files(
-                rbc.LOCAL_LOG_PATH, ftp.obtain_prototype_file(version_date)
-            )[0]
+            ue_local_version_path = ftp.download_version_files(ftp.obtain_prototype_file(version_date))[0]
     ue_uncompress_path = upg.uncompress_tar_gz_file(ue_local_version_path)
     ue_mac_cfg_path = upg.find_config_file(ue_uncompress_path, "nrue_cfg_Data.xml")
     print("modify config file nrue_cfg_Data.xml")

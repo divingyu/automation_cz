@@ -21,6 +21,24 @@
     "ue": {
         "ue1": {
             "ue_mac": {
+                "exec_path": "/home/stack_20250509120829",
+                "log_path": "/mnt/rdisk",
+                "ue_ip": "192.168.3.50",
+                "ue_user": "root",
+                "ue_pwd": "innogence2019",
+                "ue_port": 22
+            },
+            "ue_phy": {
+                "exec_path": "/run/media/mmcblk1p1",
+                "log_path": "/mnt/rdisk",
+                "ue_ip": "192.168.3.49",
+                "ue_user": "root",
+                "ue_pwd": "root",
+                "ue_port": 22
+            }
+        },
+        "ue2": {
+            "ue_mac": {
                 "exec_path": "/home/ci_test_ue_stack",
                 "log_path": "/mnt/rdisk",
                 "ue_ip": "192.168.3.129",

@@ -1,10 +1,10 @@
-import time
 import common.vam as vam
 from common.remotePc import PcServ
 from common.operation import *
 
 ue_mac_serv = None
 ue_phy_serv = None
+amf_serv = None
 pc_serv = None
 
 if __name__ == '__main__':
@@ -29,13 +29,18 @@ if __name__ == '__main__':
         ue_phy_serv.connet_target_sever()
         serv_resource.append(ue_phy_serv)
 
-        update_server_time(serv_resource)
+        # 连接核心网
+        amf_serv = AmfServ(rbc.get_amf_cfg(),rbc.get_amf_name(0))
+        amf_serv.connet_target_sever()
+        serv_resource.append(amf_serv)
+
+        update_server_time([serv for serv in serv_resource if serv != amf_serv])
         clean_trace(serv_resource)
-        # fully_automated_upgrade_sgnb_version(sgnb_a)
-        # fully_automated_upgrade_sgnb_version(sgnb_b)
+
         for sgnb in sgnb_serv_list:
             sgnb.stop_sgnb_process()
 
+        # 连接远程pc, 抓wireshark log
         pc_serv = PcServ(rbc.get_jump_cfg(), label='005_pc')
         pc_serv.connet_target_sever()
         pc_serv.capture_pcap(label='attach', pcap_choice=1, interface=8)
@@ -50,13 +55,23 @@ if __name__ == '__main__':
         print(sgnb_a.execuate_l3_cmd('showCellStatus'))
         print(sgnb_a.execuate_l3_cmd('show_beam_pattern'))
         print(sgnb_a.execuate_l3_cmd('showPhyCellStatus'))
-        time.sleep(5)
         vam.block_all_channels(rbc.get_vam_cfg()["vam_ip"],rbc.get_vam_cfg()["vam_port"])
-        vam.set_attenuation(rbc.get_vam_cfg()["vam_ip"],rbc.get_vam_cfg()["vam_port"],3,5)
+        vam.set_attenuation(rbc.get_vam_cfg()["vam_ip"],rbc.get_vam_cfg()["vam_port"],2,5)
+
+        shell_a = sgnb_a.telnet_L2('0x20')
+        shell_b = sgnb_a.telnet_L2('0x21')
+        print(sgnb_a.execuate_l2_cmd(shell_a,'sw dlmcs 1 15'))
+        print(sgnb_a.execuate_l2_cmd(shell_a,'sw ulmcs 1 14'))
+
         # 终端发起接入
         attach_ue(ue_mac_serv,ue_phy_serv)
         print(sgnb_a.execuate_l3_cmd("show_all_ue_msg"))
-
+        execute_dl_udp_traffic(ue_mac_serv, amf_serv, "dl_udp_traffic.txt", bw_size="100M",
+                               length=1300, duration_time=60, port=52431)
+        execute_ul_udp_traffic(ue_mac_serv, amf_serv, "ul_udp_traffic.txt", bw_size="100M",
+                               length=1300, duration_time=60, port=52432)
+        time.sleep(62)
+        print("业务执行完毕")
     except KeyboardInterrupt:
         print("KeyboardInterrupt: Exiting the program.")
     finally:
@@ -70,5 +85,6 @@ if __name__ == '__main__':
         if pc_serv is not None:
             pc_serv.stop_pcap(home_file_path, pcap_choice=1)
             pc_serv.closed_ssh()
+
         clean_trace(serv_resource)
         closed_ssh(serv_resource)

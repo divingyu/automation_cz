@@ -44,7 +44,7 @@ class FtpServ:
 
     def obtain_prototype_newest_version(self) -> str:
         newest_version = self.ftp.nlst(self.FTP_PROTOTYPE_DAILY_VER_PATH)[-1]
-        file_newest_version = self.ftp.nlst(newest_version)[-1]
+        file_newest_version = self.ftp.nlst(newest_version)[0]
         return file_newest_version
 
     def obtain_prototype_file(self, filename: str) -> str:
@@ -54,7 +54,7 @@ class FtpServ:
             prototype_ver_list = self.ftp.nlst(self.FTP_PROTOTYPE_DAILY_VER_PATH)
             for prototype_ver in prototype_ver_list:
                 if file_fold in prototype_ver:
-                    return self.ftp.nlst(prototype_ver)[-1]
+                    return self.ftp.nlst(prototype_ver)[0]
             raise AttributeError(f"{filename} is not exist!!")
         except AttributeError:
             raise AttributeError(f"{filename} is not exist!!")
